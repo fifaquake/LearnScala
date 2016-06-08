@@ -26,5 +26,15 @@ object TestArray {
 		for (x <- myList3) {
 			println(x)
 		}
+
+		// use range to create Array
+		var myList4 = range(10, 20, 2)
+		var myList5 = range(10, 20)
+		for (x <- myList4) {
+			println(x)
+		}
+		for (x <- myList5) {
+			println(x)
+		}
 	}
 }
